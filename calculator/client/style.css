@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.cals_main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0 0 4%);
+    margin: 0;
+    padding: 0;
+}
+.form_container{
+   max-width: 350px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border:5px solid gray;
+    outline: none;
+    
+}
+input{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    margin: 10px 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(190, 202, 206);
+    border: 2px solid rgb(108, 105, 105);
+    cursor: pointer;
+    text-align: center;
+
+
+}
+input:hover{
+    background-color: rgb(140, 160, 164);
+}
+#displaybox{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(28, 26, 26);
+    color: white;
+    text-align: right;
+    font-size: 2em;
+}
+#ansbtn{
+    width: 290px;
+    height: 60px;
+    background-color: rgb(93, 98, 103);
+
+}
+#ansbtn:hover{
+    background-color: rgb(72, 75, 76);
+}

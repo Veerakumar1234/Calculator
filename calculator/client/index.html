@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <div class="cals_main_div">
+        <form action="" class="form_container">
+            <input type="text" id="displaybox" placeholder="0" readonly>
+            <input type="button" id="btnvalue" value="1" onclick="appendToDisplay(1)">
+            <input type="button" id="btnvalue" value="2" onclick="appendToDisplay(2)">
+            <input type="button" id="" value="3" onclick="appendToDisplay('3')">
+            <input type="button" id="opr" value="+" onclick="appendToDisplay('+')">
+            <input type="button" id="" value="4"  onclick="appendToDisplay('4')">
+            <input type="button" id="" value="5" onclick="appendToDisplay('5')">
+            <input type="button" id="" value="6" onclick="appendToDisplay('6')">
+            <input type="button" id="opr" value="-" onclick="appendToDisplay('-')">
+            <input type="button" id="" value="7" onclick="appendToDisplay('7')">
+            <input type="button" id="" value="8" onclick="appendToDisplay('8')">
+            <input type="button" id="" value="9" onclick="appendToDisplay('9')">
+            <input type="button" id="" value="*" onclick="appendToDisplay('*')">
+            <input type="button" id="" value="0" onclick="appendToDisplay('0')">
+            <input type="button" id="" value="." onclick="appendToDisplay('.')">
+            <input type="button" id="" value="C" onclick="clearDisplay()">
+            <input type="button" id="" value="/" onclick="appendToDisplay('/')">
+            <input type="button" id="ansbtn" value="Ans" onclick="calculate()">
+        </form>
+    </div>
+    <script src="../server/script.js"> </script>
+
+</body>
+</html>
